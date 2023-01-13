@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(180, 180, 180);
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(199, 54, 54);
+  font-weight: bold;
+  line-height: 60px;
+}
+.center {
+  width: 100%;
+  height: 680px;
+}
+.image-block {
+  width: 50%;
+  height: 100%;
+}
+.text-block {
+  width: 50%;
+  height: 90%;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-top: 60px;
+}
+.image-block,
+.text-block {
+  float: left;
+}
+
+.text {
+  margin: 10px auto;
+}
+.text-block-small {
+  height: 100%;
+  width: 75%;
+  margin-left: 80px;
+}
+h1 {
+  font-weight: 100;
+  border-bottom: 3px solid red;
+}
+.main-image {
+  width: 80%;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  margin: 40px auto;
+}
+.image {
+  background-image: url(Marvel_Studios_logo.jpg);
+  width: 100%;
+  height: 57%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  outline: 4px solid rgb(213, 179, 179);
+  outline-offset: -4px;
+}
+
+.image:hover {
+  height: 58%;
+  outline-offset: 1px;
+  background-position: center;
+  outline: 4px solid rgb(255, 109, 109);
+}
+
+.fourblock {
+  margin-top: 14px;
+
+  width: 100%;
+  height: 40%;
+}
+
+.minibox {
+  width: 16%;
+  height: 25%;
+
+  border: 4px solid rgb(248, 189, 189);
+  background-image: url(Marvel_Studios_logo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.minibox:hover {
+  background-color: red;
+  border: 3px solid darkblue;
+}
